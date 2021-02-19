@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏓</text></svg>">
+    <script src="./app.js" defer></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Pong</title>
+</head>
+<body>
+    <div class="menu-screen">
+        <h1>PONG</h1>
+        <p id="start">START</p>
+    </div>
+    <div class="paused-screen">
+        <h1>Ready?</h1>
+        <p id="go">GO</p>
+    </div>
+    <div class="end-screen winner-screen">
+        <h1>You Won!</h1>
+        <p id="retry-winner">Retry?</p>
+    </div>
+    <div class="end-screen loser-screen">
+        <h1>You Lost!</h1>
+        <p id="retry-loser">Retry?</p>
+    </div>
+    <canvas></canvas>
+    <footer>
+        <p><a href=""><i class="fab fa-github-square"></i></a></p>
+    </footer>
+</body>
+</html>
