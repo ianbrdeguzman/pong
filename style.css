@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P", cursive;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -27,6 +27,21 @@ p {
     cursor: pointer;
     margin-top: 1rem;
     animation: blink 1s ease infinite;
+}
+
+.menu-screen p input {
+    width: 2rem;
+    font-size: inherit;
+    font-family: inherit;
+    color: red;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .hide-menu {
@@ -59,7 +74,7 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
 }
 
 footer p a {
